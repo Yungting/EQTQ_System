@@ -56,7 +56,11 @@ img{
 @media screen and (max-width: 375px){
     body{
         font-family: 'Noto Sans TC', sans-serif;
-        color: white;
+        color: #F4F4F4;
+        margin:0px;
+        padding:0px;
+        margin:0;
+        padding:0;
     }
 
 /* color */
@@ -69,8 +73,19 @@ img{
     .green{
         background-color: #66CC66;
     }
+    .text_gray{
+        color: #666666;
+    }
 
 /* content */
+    .login_background{
+        background: #000 url(picture/1-7.png) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
+    .clear{
+        clear: both;
+    }
     .header{
         background: #999999;
     }
@@ -79,12 +94,11 @@ img{
         color: white;
     }
     .up{
-        width: 90%;
         margin: 0 auto;
     }
     .title{
         display:block;
-        font-size: 210%;
+        font-size: 35px;
         padding-bottom: 13px;
         padding-top: 60px;
         text-align: center;
@@ -93,8 +107,8 @@ img{
     }
     .fontset{
         float: right;
-        width: 120px;
-        padding-right: 10px;
+        width: 130px;
+        padding-right: 30px;
         padding-top: 20px;
     }
     .fontset li{
@@ -114,5 +128,37 @@ img{
         float: left;
         text-align: center;
         padding: 2%;
+    }
+    .account{
+        margin: 30% 35px;
+        font-size: 23px;
+        font-weight: 500;
+    }
+    .account p{
+        height: 23px;
+        width: 75px;
+        float: left;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .account input{
+        height: 23px;
+        width: 68%;
+        float: left;
+        font-size: 23px;
+        margin-top: 20px;
+    }
+    .login_btn input{
+        padding: 0px 22px;
+        border: #66CCCC 1px solid;
+        color: white;
+        font-size: 23px;
+        font-weight: 500;
+        margin: 30px auto;
+        display: block;
+        letter-spacing: 10px;
+        padding-right: 12px;
+        text-align: justify;
+        font-family: 'Noto Sans TC', sans-serif;
     }
 }
