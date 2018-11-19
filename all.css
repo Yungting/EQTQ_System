@@ -54,7 +54,8 @@ img{
 
 
 @media screen and (max-width: 375px){
-    body{
+    .wrapper{
+        width: 100%;
         font-family: 'Noto Sans TC', sans-serif;
         color: #F4F4F4;
         margin:0px;
@@ -79,7 +80,7 @@ img{
 
 /* content */
     .login_background{
-        background: #000 url(picture/1-7.png) center center fixed no-repeat;
+        background: #000 url(picture/1-7.png) center center fixed repeat;
         -moz-background-size: cover;
         background-size: cover;
     }
@@ -130,7 +131,7 @@ img{
         padding: 2%;
     }
     .account{
-        margin: 30% 35px;
+        padding: 30% 35px;
         font-size: 23px;
         font-weight: 500;
     }
@@ -145,10 +146,11 @@ img{
         height: 23px;
         width: 68%;
         float: left;
-        font-size: 23px;
+        padding: 0px 3px;
+        font-size: 18px;
         margin-top: 20px;
     }
-    .login_btn input{
+    .login_btn{
         padding: 0px 22px;
         border: #66CCCC 1px solid;
         color: white;
