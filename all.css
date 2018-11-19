@@ -71,14 +71,6 @@ img{
     }
 
 /* content */
-    .title{
-        font-size: 200%;
-        padding-bottom: 13px;
-        padding-top: 60px;
-        text-align: center;
-        font-weight: 700;
-        letter-spacing: 2px;
-    }
     .header{
         background: #999999;
     }
@@ -86,11 +78,24 @@ img{
         text-decoration: none;
         color: white;
     }
+    .up{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .title{
+        display:block;
+        font-size: 210%;
+        padding-bottom: 13px;
+        padding-top: 60px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
     .fontset{
         float: right;
-        width: 30%;
+        width: 120px;
+        padding-right: 10px;
         padding-top: 20px;
-        padding-right: 40px;
     }
     .fontset li{
         width: 50%;
