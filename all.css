@@ -68,6 +68,11 @@ img{
     }
 
 /* content */
+    .login_background{
+        background: #000 url(picture/1-7.png) center center fixed no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
+    }
     .wrapper{
         margin:0px;
         padding:0px;
@@ -76,9 +81,6 @@ img{
         padding:0;
         width: 100%;
         height: 100%;
-        background: #000 url(picture/1-7.png) center center fixed no-repeat;
-        -moz-background-size: cover;
-        background-size: cover;
         font-family: 'Noto Sans TC', sans-serif;
         color: #F4F4F4;
 
@@ -96,11 +98,19 @@ img{
     .up{
         margin: 0 auto;
     }
-    .title{
+    .login_title{
         display:block;
-        font-size: 28px;
+        font-size: 30px;
         padding-bottom: 3%;
         padding-top: 12%;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+    .title{
+        display:block;
+        font-size: 30px;
+        padding: 4% 0px;
         text-align: center;
         font-weight: 700;
         letter-spacing: 5px;
@@ -108,7 +118,7 @@ img{
     .fontset{
         float: right;
         width: 120px;
-        padding-right: 30px;
+        padding-right: 13%;
         padding-top: 10px;
     }
     .fontset li{
@@ -131,18 +141,22 @@ img{
         padding: 5px 1%;
         font-size: 16px;
     }
-    .content{
+    .login_content{
         width: 100%;
         height: 70%;
     }
+    .content{
+        width: 100%;
+        height:100%;
+    }
     .account{
         padding: 30% 40px;
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 22px;
+        font-weight: 700;
     }
     .account p{
         height: 23px;
-        width: 67px;
+        width: 69px;
         float: left;
         text-align: left;
         margin-top: 20px;
